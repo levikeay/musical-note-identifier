@@ -1,3 +1,16 @@
+'''
+This script records an audio sample from a user's device and outputs the notes that 
+were played in a PyQt5 GUI. 
+
+A chromagram of the detected notes is created and displayed on the GUI.
+
+Created by Levi Keay, Brianne Boufford, and Annika Wevers for the 
+2021 McGill Physics Hackathon
+
+7-Nov-2021
+
+'''
+
 import queue
 import sounddevice as sd
 import soundfile as sf
